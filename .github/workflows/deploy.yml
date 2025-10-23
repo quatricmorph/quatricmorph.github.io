@@ -1,4 +1,4 @@
-name: Deploy Nextra 4 to GitHub Pages
+name: Deploy Quatricmorph to GitHub Pages
 
 on:
   push:

@@ -57,7 +57,7 @@ export default async function RootLayout({ children }: { children: React.ReactNo
                     banner={banner}
                     navbar={navbar}
                     pageMap={await getPageMap()}
-                    docsRepositoryBase="https://github.com/Quatricmorph/quatricmorph.github.io/tree/main"
+                    docsRepositoryBase="https://github.com/quatricmorph/quatricmorph.github.io/tree/main"
                     footer={footer}
                 // ... Your additional layout options
                 >
