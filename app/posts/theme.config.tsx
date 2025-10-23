@@ -1,5 +1,5 @@
 const config = {
-  footer: <p>ViệtLLM © 2025</p>,
+  footer: <p>Quatricmorph © 2025</p>,
   head: ({ title, meta }) => (
     <>
       {meta.description && (

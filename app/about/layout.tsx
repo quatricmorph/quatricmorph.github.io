@@ -26,11 +26,11 @@ export default function AboutLayout({
           <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
             <img
               src="/favicon/favicon.svg"
-              alt="ViệtLLM"
+              alt="Quatricmorph"
               style={{ width: '24px', height: '24px' }}
             />
             <a href="/" style={{ textDecoration: 'none', color: '#000', fontWeight: 'bold', fontSize: '1.25rem' }}>
-              ViệtLLM
+              Quatricmorph
             </a>
           </div>
           <div style={{ display: 'flex', gap: '2rem' }}>

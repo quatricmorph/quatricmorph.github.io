@@ -20,10 +20,10 @@ export default function HomePageLayout() {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           <img
             src="/favicon/favicon.svg"
-            alt="ViệtLLM"
+            alt="Quatricmorph"
             style={{ width: '32px', height: '32px' }}
           />
-          <h1 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>ViệtLLM</h1>
+          <h1 style={{ margin: 0, fontSize: '1.5rem', fontWeight: 'bold' }}>Quatricmorph</h1>
         </div>
         <div style={{ display: 'flex', gap: '2rem' }}>
           <a href="/posts" style={{ textDecoration: 'none', color: '#0070f3', fontWeight: '500' }}>

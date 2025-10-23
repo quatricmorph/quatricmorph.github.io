@@ -6,11 +6,11 @@ import './globals.css'
 import React from 'react'
 
 export const metadata = {
-    title: 'ViệtLLM',
-    description: 'ViệtLLM Documentation'
+    title: 'Quatricmorph',
+    description: 'Quatricmorph Documentation'
 }
 
-const banner = <Banner storageKey="quatricmorph-banner">Welcome to ViệtLLM 🎉</Banner>
+const banner = <Banner storageKey="quatricmorph-banner">Welcome to Quatricmorph 🎉</Banner>
 
 const navbar = (
     <Navbar
@@ -18,17 +18,17 @@ const navbar = (
             <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
                 <img
                     src="/favicon/favicon.svg"
-                    alt="ViệtLLM"
+                    alt="Quatricmorph"
                     style={{ width: '24px', height: '24px' }}
                 />
-                <b>ViệtLLM</b>
+                <b>Quatricmorph</b>
             </div>
         }
     // ... Your additional navbar options
     />
 )
 
-const footer = <Footer>MIT {new Date().getFullYear()} © ViệtLLM.</Footer>
+const footer = <Footer>MIT {new Date().getFullYear()} © Quatricmorph.</Footer>
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
     return (
