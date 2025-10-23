@@ -1,8 +1,8 @@
 {
-  "name": "quatricmorph.github.io",
+  "name": "vietnamllm.github.io",
   "version": "1.0.0",
   "type": "module",
-  "description": "Quatricmorph",
+  "description": "VietnamLLM",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/quatricmorph/quatricmorph.github.io.git"
+    "url": "git+https://github.com/VietnamLLM/vietnamllm.github.io.git"
   },
   "author": "Thanh Hoang-Minh",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/quatricmorph/quatricmorph.github.io/issues"
+    "url": "https://github.com/VietnamLLM/vietnamllm.github.io/issues"
   },
-  "homepage": "https://github.com/quatricmorph/quatricmorph.github.io#readme",
+  "homepage": "https://github.com/VietnamLLM/vietnamllm.github.io#readme",
   "dependencies": {
     "@mdx-js/loader": "^3.1.1",
     "@mdx-js/react": "^3.1.1",

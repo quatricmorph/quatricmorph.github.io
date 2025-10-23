@@ -1,0 +1,51 @@
+# API Reference
+
+Complete API documentation for ViệtLLM.
+
+## Core Classes
+
+### Quatricmorph
+
+The main class for interacting with Vietnamese language models.
+
+#### Constructor
+
+```typescript
+new Quatricmorph(options: QuatricmorphOptions)
+```
+
+#### Methods
+
+##### generate()
+
+Generate text based on input prompt.
+
+```typescript
+generate(prompt: string, options?: GenerateOptions): Promise<string>
+```
+
+**Parameters:**
+- `prompt` - Input text prompt
+- `options` - Optional generation settings
+
+**Returns:** Promise that resolves to generated text
+
+##### translate()
+
+Translate text between Vietnamese and other languages.
+
+```typescript
+translate(text: string, from: string, to: string): Promise<string>
+```
+
+## Types
+
+### QuatricmorphOptions
+
+```typescript
+interface QuatricmorphOptions {
+  apiKey: string
+  model?: string
+  temperature?: number
+}
+```
